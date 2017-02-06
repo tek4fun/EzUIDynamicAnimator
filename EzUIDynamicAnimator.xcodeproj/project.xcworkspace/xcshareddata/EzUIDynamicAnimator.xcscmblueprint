@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81A45BDD582A67E4AF07BF885543D4007AB2FC49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "70E19CA0DB739420D5C3FDDC9489E03E6D8923FE" : 9223372036854775807,
+    "81A45BDD582A67E4AF07BF885543D4007AB2FC49" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "97BDF99C-CFD7-4DC7-9074-93DAF6563D51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "70E19CA0DB739420D5C3FDDC9489E03E6D8923FE" : "EzRollingBall\/",
+    "81A45BDD582A67E4AF07BF885543D4007AB2FC49" : "EzUIDynamicAnimator\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EzUIDynamicAnimator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EzUIDynamicAnimator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tek4fun\/EzRollingBall.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "70E19CA0DB739420D5C3FDDC9489E03E6D8923FE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tek4fun\/EzUIDynamicAnimator",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81A45BDD582A67E4AF07BF885543D4007AB2FC49"
+    }
+  ]
+}
