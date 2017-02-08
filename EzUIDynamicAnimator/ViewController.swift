@@ -28,12 +28,6 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate {
         super.viewDidAppear(animated)
         animator = UIDynamicAnimator(referenceView: self.view)
 
-        //self.gravityBehavior = UIGravityBehavior(items: [self.ball])
-        //gravityBehavior.angle = -2
-        //gravityBehavior.magnitude = 0
-        //gravityBehavior.gravityDirection = CGVector(dx: -0.5, dy: 1)
-        //animator.addBehavior(gravityBehavior)
-
         //collision
         let collisionBehavior = UICollisionBehavior(items: [self.ball,self.brickV1,self.brickV2,self.brickV3,self.brickV4])
         collisionBehavior.translatesReferenceBoundsIntoBoundary = true
@@ -44,14 +38,11 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate {
 
         //push
         self.pushBehavior = UIPushBehavior(items: [self.ball], mode: UIPushBehaviorMode.continuous)
-        //self.animator.addBehavior(self.pushBehavior)
 
         //UIdynamicItemBehavior
         let ballProperty = UIDynamicItemBehavior(items: [self.ball])
         ballProperty.elasticity = 0.5
-        ballProperty.angularVelocity(for: self.ball)
         self.animator.addBehavior(ballProperty)
-
 
         //Gesture
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan(gesture:)))
