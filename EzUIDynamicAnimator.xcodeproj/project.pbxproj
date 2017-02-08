@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E241D4F1E4873ED00C9BA9E /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E241D4E1E4873ED00C9BA9E /* CustomAlertView.swift */; };
+		1E241D511E487AAF00C9BA9E /* Dismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E241D501E487AAF00C9BA9E /* Dismiss.png */; };
 		1E423B001E442A5500C4387E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E423AFF1E442A5500C4387E /* AppDelegate.swift */; };
 		1E423B021E442A5500C4387E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E423B011E442A5500C4387E /* ViewController.swift */; };
 		1E423B051E442A5500C4387E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E423B031E442A5500C4387E /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E241D4E1E4873ED00C9BA9E /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		1E241D501E487AAF00C9BA9E /* Dismiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dismiss.png; sourceTree = "<group>"; };
 		1E423AFC1E442A5500C4387E /* EzUIDynamicAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzUIDynamicAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E423AFF1E442A5500C4387E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E423B011E442A5500C4387E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				1EC6B5831E48692C00778C67 /* ball.png */,
+				1E241D501E487AAF00C9BA9E /* Dismiss.png */,
 				1E423AFF1E442A5500C4387E /* AppDelegate.swift */,
 				1E423B011E442A5500C4387E /* ViewController.swift */,
 				1E423B031E442A5500C4387E /* Main.storyboard */,
 				1E423B061E442A5500C4387E /* Assets.xcassets */,
 				1E423B081E442A5500C4387E /* LaunchScreen.storyboard */,
 				1E423B0B1E442A5500C4387E /* Info.plist */,
+				1E241D4E1E4873ED00C9BA9E /* CustomAlertView.swift */,
 			);
 			path = EzUIDynamicAnimator;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			files = (
 				1E423B0A1E442A5500C4387E /* LaunchScreen.storyboard in Resources */,
 				1E423B071E442A5500C4387E /* Assets.xcassets in Resources */,
+				1E241D511E487AAF00C9BA9E /* Dismiss.png in Resources */,
 				1EC6B5841E48692C00778C67 /* ball.png in Resources */,
 				1E423B051E442A5500C4387E /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E241D4F1E4873ED00C9BA9E /* CustomAlertView.swift in Sources */,
 				1E423B021E442A5500C4387E /* ViewController.swift in Sources */,
 				1E423B001E442A5500C4387E /* AppDelegate.swift in Sources */,
 			);
